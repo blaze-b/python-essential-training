@@ -74,4 +74,3 @@ print(d)
 print(d[10])
 di = {1: "Brian", 2: "Geeth", 3: "John"}
 print(di[3])
-

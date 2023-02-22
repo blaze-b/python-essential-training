@@ -8,3 +8,7 @@
    - float 4.2 - 64-bit floating point numbers
    - None - the null object
    - bool True, False - boolean logical values
+
+
+### Rational Operators
+

@@ -16,5 +16,3 @@ print(d)
 
 sal = 500000
 print(sal)
-
-
