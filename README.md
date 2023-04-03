@@ -12,3 +12,20 @@
 
 ### Rational Operators
 
+   - For value equal checks
+   
+### Conditional Statements
+
+   - Branch execution based on the value of an expression
+   
+            if expression:
+               block
+               
+### Loops
+
+    while expression:
+       block
+   
+   
+   - break is supported
+
