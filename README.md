@@ -28,4 +28,14 @@
    
    
    - break is supported
+   
+   
+### Strings
+
+ - Datatype : str
+ - Sequence of Unicode code points
+ - Immutable
+ - Supports single and double quotes '', ""
+ 
+ 
 
