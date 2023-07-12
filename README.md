@@ -18,15 +18,17 @@
 
    - Branch execution based on the value of an expression
    
+         ```python
             if expression:
                block
+         ```
                
 ### Loops
 
-    while expression:
-       block
-   
-   
+   ```python
+      while expression:
+         block
+   ```
    - break is supported
    
    
