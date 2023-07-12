@@ -17,17 +17,17 @@
 ### Conditional Statements
 
    - Branch execution based on the value of an expression
-   
-         ```python
-            if expression:
-               block
-         ```
+
+   ```python
+      if expression:
+         block
+   ```
                
 ### Loops
 
    ```python
-      while expression:
-         block
+         while expression:
+            block
    ```
    - break is supported
    
