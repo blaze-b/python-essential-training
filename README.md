@@ -34,8 +34,23 @@
 
  - Datatype : str
  - Sequence of Unicode code points
- - Immutable
+ - Immutable as in java
  - Supports single and double quotes '', ""
+ - Moment of Zen -> Practicality beats purity
+   - Beautiful Text Strings
+   - Rendered in the literal form
+   - Simple elegance
+
+
+### String Literals
+
+ - Strings with Newlines
  
+   - Use Multiline Strings: spread the literal across multiple lines
+   - Escape Sequences: Embed escape sequences in a single-line literal
+
+ - List of escape sequences
+
+   ![alt text](./images/escape-sequences.PNG)
  
 
