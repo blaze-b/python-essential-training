@@ -56,3 +56,15 @@
    ![alt text](./images/escape-sequences.PNG)
  
 
+### Bytes
+
+ - Date types for sequences of bytes
+ - Raw binary data
+ - Fixed-width single-byte encodings
+
+
+### Lists
+
+ - Sequences of objects
+ - Mutable
+ - A workhorse in python
