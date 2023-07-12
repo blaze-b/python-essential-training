@@ -26,8 +26,8 @@
 ### Loops
 
    ```python
-         while expression:
-            block
+      while expression:
+         block
    ```
    - break is supported
    
