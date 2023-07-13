@@ -2,6 +2,8 @@
 
    - Training the basics of the python based programming
    - REPL--> Read eval print loop
+   - Python doesn't have variables in the sense of boxes holding a value
+   - Python has named references to objects
 
 ### Scalar Types
 
@@ -110,6 +112,8 @@
  - Two between functions
  - That is the number of lines
  - PEP8 recommends
+ - In the function args are transferred using pass-by-object-reference.
+ - References to objects are copied, not the objects themselves.
 
 ### Naming special Functions
  
@@ -138,5 +142,11 @@
  - #! is the keyword
  - e.g.:
  - To make it executable: `chmod +x words_advanced.py`
-   - Windows: `words_advanced.py http://sixty-north.com/c/t.txt`
-   - Linux: `./words_advanced.py http://sixty-north.com/c/t.txt`
+   - Windows: `words_extract.py http://sixty-north.com/c/t.txt`
+   - Linux: `./words_extract.py http://sixty-north.com/c/t.txt`
+
+
+### Value vs. identity equality
+
+ - Value-equality and identity equality are fundamentally different concepts.
+ - Comparison by value can be controlled programmatically.

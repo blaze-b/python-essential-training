@@ -4,7 +4,6 @@ def display_nth_root(radicand, n):
     print(message)
 
 
-
 def ordinal(value):
     return str(value) + ordinal_suffix(value)
 

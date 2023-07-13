@@ -27,3 +27,7 @@ if h > 50:
     print("Greater than 50")
 elif h < 20:
     print("Less than 20")
+
+
+if h > 50 and h < 20:
+     print(h)
