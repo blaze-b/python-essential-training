@@ -61,7 +61,7 @@
 
  - List of escape sequences
 
-   ![alt text](./images/escape-sequences.PNG)
+   ![alt text](./00_images/escape-sequences.PNG)
 
 ### Bytes
 
@@ -126,7 +126,7 @@
 
 ### Python Execution Model
 
- ![alt text](./images/python_execution_model_1.JPG)
+ ![alt text](./00_images/python_execution_model.JPG)
 
 ### docstrings
 
@@ -150,3 +150,37 @@
 
  - Value-equality and identity equality are fundamentally different concepts.
  - Comparison by value can be controlled programmatically.
+
+
+### Default Value Evaluation
+ 
+ - Remember that def is a statement executed at runtime.
+ - Default args are evaluated when def is executed.
+ - Immutable default values don't cause problems.
+ - Mutable default values can cause confusing effects.
+ - Always use immutable objects for default values.
+
+### Type Systems
+
+ - It will not generally perform implicit conversation between types
+
+ ### Scopes
+
+  - Type declarations are unnecessary in python.
+  - Names can be rebound as necessary to objects of any type.
+  - Name resolution to objects is managed by scopes and scoping rules.
+  - LEGB
+      - Local -> Inside the current function
+      - Enclosing -> Inside enclosing functions.
+      - Global -> At the top level of the module.
+      - Built-in -> In the special builtins module
+
+
+### Scoping
+
+ - Using the global names
+
+
+### Built-In Collections
+
+ - Tuples
