@@ -200,3 +200,13 @@
          - range(stop)
          - range(start, stop)
          - range(start, stop, step)
+      - Range does not support keyword arguements.
+   - Enumerate
+      - Constructs an iterable of(index, value) tuples around another iterable object
+   - Lists
+      - Negtive indices
+         - Index from then end of sequences using negative numbers
+         - The last element is at index -1
+      - Slicing
+         - Extended form of indexing for referring to a portion of a list or other sequence.
+         - Syntax: a_list[start:stop]

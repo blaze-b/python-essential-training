@@ -21,3 +21,9 @@ print(l)
 
 l = list(range(0, 10, 3))
 print(l)
+
+
+s = [0, 1, 2, 3, 4]
+
+for i in range(len(s)):
+    print(s[i])
