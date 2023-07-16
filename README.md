@@ -184,3 +184,19 @@
 ### Built-In Collections
 
  - Tuples
+   - Immutable sequences of arbitrary objects
+   - Tuple unpacking is the destructuring operation that unpacks data structures into named references.
+ - Strings
+   - It is an immutable class
+   - Use str.join() to join strings
+      - Concantenation with + results in temporaries
+      - str.join() inserts a seperator between a collection of strings
+      - Call join() on the seperator string
+   - PEP 498: Literal String Interpolation
+      - Commonly called f-strings
+      - Embed expressions inside literal strings, using a minimal syntax
+ - Range
+      - Signature
+         - range(stop)
+         - range(start, stop)
+         - range(start, stop, step)
