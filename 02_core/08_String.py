@@ -7,6 +7,4 @@ print("This is also a string")
 
 print('"This is also a string"')
 
-
-
-
+print("Hello World")

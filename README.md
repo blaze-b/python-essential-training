@@ -210,3 +210,6 @@
       - Slicing
          - Extended form of indexing for referring to a portion of a list or other sequence.
          - Syntax: a_list[start:stop]
+      - list.index()
+         - Find the location of an object in a list.
+         - Returns the index of the first list element which is equal to the arguement
