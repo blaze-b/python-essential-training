@@ -203,7 +203,7 @@
       - Range does not support keyword arguements.
    - Enumerate
       - Constructs an iterable of(index, value) tuples around another iterable object
-   - Lists
+ - Lists
       - Negtive indices
          - Index from then end of sequences using negative numbers
          - The last element is at index -1
@@ -213,3 +213,52 @@
       - list.index()
          - Find the location of an object in a list.
          - Returns the index of the first list element which is equal to the arguement
+      - Delete
+         - Remove an element from a list by index
+         - Syntax: del a_list[index]
+      - Insert
+         - Insert an item into a list.
+         - Accepts an item and the index of the new item.
+      - Reverse
+         - Reversing the elements
+         - list.reverse()
+      - Sorting
+         - Sorts the elements
+         - list.sort()
+         - Can be any callable object that accepts a single parameter
+         - Items passed to callable and sorted on its return value
+ - Dict:
+      - Key value storage
+
+          ![alt text](./00_images/dict.JPG)
+      
+      - Do not rely on the order of the items
+      - As with the lists dictionary copying is shallow
+      - Update:
+         - dict.update()
+         - Add entries from one directory into another
+         - Call this on the dictionary that is to be updated
+      - Iteration
+         - It yields the next day on each iteration
+         - Values can be retrieved using the square-bracket operator
+      - Each iterates over keys and values in tandem, dict.items()
+
+ - Set
+      - Unordored collection of unique elements.
+      - Sets are mutable
+      - Elements are set to be immutable
+ - Protocol
+      - It is a set of operations that a type must support to implement the protocol
+      - Do not need to be defined as interfaces or base classes.
+      - Types only need to provide functioning implementations.
+
+         ![alt text](./00_images/protocols.JPG)
+      
+      - Container: in , not in
+      - Sized: len(container)
+      - Iterable: Yields items one by one as they are requested
+      - Sequence: 
+         - Systax: item = sequence[index], i = sequence.index(item), num = sequence.count(item), r = reversed(sequence)
+         - Supports iterable, sized, container
+          
+
