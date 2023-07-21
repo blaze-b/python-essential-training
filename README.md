@@ -82,7 +82,7 @@
  - Use list constructor to create lists from other sequences
  - A workhorse in python
 
- ### Dict
+### Dict
 
  - Fundamental data structure in python
  - Map key to values
@@ -260,5 +260,5 @@
       - Sequence: 
          - Systax: item = sequence[index], i = sequence.index(item), num = sequence.count(item), r = reversed(sequence)
          - Supports iterable, sized, container
-          
+
 
