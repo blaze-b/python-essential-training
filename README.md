@@ -140,10 +140,9 @@
 ### Shebangs
 
  - #! is the keyword
- - e.g.:
- - To make it executable: `chmod +x words_advanced.py`
-   - Windows: `words_extract.py http://sixty-north.com/c/t.txt`
-   - Linux: `./words_extract.py http://sixty-north.com/c/t.txt`
+ - e.g.:To make it executable: `chmod +x words_advanced.py`
+      - Windows: `words_extract.py http://sixty-north.com/c/t.txt`
+      - Linux: `./words_extract.py http://sixty-north.com/c/t.txt`
 
 
 ### Value vs. identity equality
