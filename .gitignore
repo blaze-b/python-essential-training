@@ -4,6 +4,7 @@
 *.bak
 data-dev.sqlite
 __pycache__
+.vscode
 
 ### OSX ###
 .DS_Store

@@ -203,7 +203,7 @@
    - Enumerate
       - Constructs an iterable of(index, value) tuples around another iterable object
  - Lists
-      - Negtive indices
+      - Negative indices
          - Index from then end of sequences using negative numbers
          - The last element is at index -1
       - Slicing
@@ -261,3 +261,19 @@
          - Supports iterable, sized, container
 
 
+### Exceptions
+
+- Exception propagation
+   ![alt text](./00_images/exception_propagation.JPG)
+
+- Exceptions resulting from programmer errors:
+   - IndentationError
+   - SyntaxError
+   - NameError
+- Programmer errrors should never be caught
+- `pass` is a no-op
+- Exceptions can not be ignored
+   - Error codes are easy to ignore
+   - Checks are always required
+
+   
