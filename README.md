@@ -275,5 +275,40 @@
 - Exceptions can not be ignored
    - Error codes are easy to ignore
    - Checks are always required
-
-   
+- It is part of an API
+  - Use Standard exception types
+    - Standard types-> It provides standard exceptions types for signalling common errors
+    - Invalid arguement types-> Use ValueError for arguements of the right type but with an invalid value.
+    - Exception Constructors-> Use raise ValueError() to raise a new ValueError
+- Protocols
+   - Sequences should raise IndexError for out-of-bounds indexing.
+   - Exceptions must be implemented and documented correctly.
+   - Existing built-in exceptions are often the right ones to use.
+   - Follow existing patterns: The more your code follows established patterns, the easier it will be for others to use.
+   - Common Exception types
+      - IndexError: an integer index is out of range
+      - ValueError: an object is of the correct type but has an appropriate value
+      - KeyError: a loopup in the mapping failed
+   - Avoid catching TypeError
+      - Increase function resuability
+      - Let Type Errors arise on their own
+   - Its easier to ask forgiveness than permission
+      - Prepare for failure
+         - Check all preconditions
+         - Prepare for consequences
+         - `LBYL`- Look Before You Leap
+         - `EAFP`- Easier to ask forgiveness then permission
+         - EAFP is prefered because it put the code's "happy path" is emphasized rather than being interspered with error handling
+         - EAFP is enabled by exceptions
+         - Without exceptions, error handling is interspered in program flow
+         - Exceptions can be handled non-locally
+         - EAFP plus Exceptions
+            - Exceptions are not easily ignored
+            - Error codes are silent by default
+            - Exceptions plus EAFP makes it hard for problems to be silently ignored
+   - Clean up actions
+      - Using the try, finally
+   - Platform specific modules
+      - For windows-use the `msvcrt` module
+      - For linux-use tty, termios and sys modules
+      - The caller can take alternative actions if both import fails, e.g: they could downgrade to user input()
