@@ -312,3 +312,52 @@
       - For windows-use the `msvcrt` module
       - For linux-use tty, termios and sys modules
       - The caller can take alternative actions if both import fails, e.g: they could downgrade to user input()
+
+
+### Iterations and Iterables
+
+   - Comprehensions
+      - Concise syntax for describing lists, sets and dictionaries
+      - Readable and expressive
+      - Close to natural language
+      - Syntax: `[expr(item) for item in iterable]`
+   - Dict Comprehensions
+      - Syntax: 
+         ```python
+            {
+               key_expr(item): value_expr(item)
+               for item in iterable
+            }
+         ```
+      - It don't work directly on dict sources
+      - Use dict.items() to get keys and values from dict sources
+      - Comprehension expressions can be arbitrarily complex
+      - Avoid excessive complexity
+   - Compresions should normally have no side-effects
+   - Iteration Protocols
+      - iterable: Can be passed to iter() to produce an iterator
+      - iterator: Can be passed to next() to get the next value in the sequence
+      - Stopping iteration with an exception
+         - A single end: Sequences only have on ending, after all, so reaching it is exceptional
+         - Infinite sequences: Finding the end of an infinite sequence
+   - Generator Functions
+      - Iterables defined by functions
+      - Lazy evaluation
+      - Can model sequences with no definie end
+      - Composable into pipelines
+      - Uses the yield keyword-> generator functions must include at least one yield statement and also should include return statements.
+      - Maintaining state in the generators
+         - Control flow is easier to see in a graphical debugger
+      - Generators only do enough work to produce requested data
+      - This allows generators to model infinite(or just very large) sequences
+      - E.g., Sensor readings, Mathematical Sequences, Contents of large files 
+      - To recreate a generator expression, you must execute the expression again
+   - Iteration tools provide a powerful vocabulary for working with iterators
+      - These include the familiar enumerate() and sum()
+      - The iterator module provides many more
+      - itertools.islice() -> perform lazy slicing of any iterators
+      - itertools.count() -> an unbounded arithmetic sequence of intergers
+      - Boolean Aggregation
+         - any() -> determines if any elements in a series are true
+         - all() -> determinse if all elements in a series are true
+      - Zip -> Synchronize iterations across two or more iterables
