@@ -31,3 +31,6 @@ Temporary Items
 ### vim template's file ###
 *.swp
 *.swo
+09_io_file/*.dat
+09_io_file/*.txt
+09_io_file/*.bmp

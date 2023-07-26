@@ -387,4 +387,20 @@
       - Python use late binding
       - You can try any method on any object
       - Inheritance in python is primarily useful for sharing implementation between classes
-      
+
+### File Input I/O and resource management
+
+   - open() 
+      - open a file for reading or writing
+      - file: the path to the file required
+      - mode: read-'r', write-'w', append-'a'
+      - selector: binary - 'b',  text mode - 't'
+      - encoding: to use in text code
+         - 'wb' - open for writing in binary mode
+         - 'at' - open for appending in text mode
+      - with keyword to open file
+   - file-like-objects
+      - Objects that behave like files
+      - A semi-formed protocol
+      - File behaviors are too varied for a fully-specified protocol
+      - Use an EAFP approach with file-like objects when necessary
