@@ -361,3 +361,30 @@
          - any() -> determines if any elements in a series are true
          - all() -> determinse if all elements in a series are true
       - Zip -> Synchronize iterations across two or more iterables
+
+
+### Classes
+
+   - Define the structure and behavior of objects
+   - Act as a template for creating an object
+   - Classes control an object's intial state, attributes and methods
+   - They can make complex problems tractable
+   - Helps in OOP's
+   - Can make simple problems unnecessarily complex
+   - Python lets you strike the right balance between functions and classes
+   - __init__()-> instance method for initializing new objects
+   - Class invariants-> truth about an object that endures for its lifetime
+   - Law of Demeter
+      - The principle of the least knowledge
+      - Only talk to your friends
+   - Tell! Dont Ask: Tell other objects what to do instead of asking them their state and responding to it
+   - Polymorphism
+      - Using objects of different types through a uniform interface
+      - It applies to both functions as well as more complex types
+      - Duck typing
+   - Inheritance
+      - Nominally-typed languages use inheritance for polymorphism
+      - Python use late binding
+      - You can try any method on any object
+      - Inheritance in python is primarily useful for sharing implementation between classes
+      
